@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Create nested objects from .-separated strings",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {},
   "repository": {
     "type": "git",
