@@ -1,0 +1,18 @@
+{
+  "name": "depthify-dots",
+  "version": "1.0.0",
+  "description": "Create nested objects from .-separated strings",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiasmagnusson/depthify.git"
+  },
+  "author": "Mathias Magnusson <mathias@magnusson.space>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathiasmagnusson/depthify/issues"
+  },
+  "homepage": "https://github.com/mathiasmagnusson/depthify#readme"
+}
