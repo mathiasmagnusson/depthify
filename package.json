@@ -1,9 +1,9 @@
 {
   "name": "depthify-dots",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create nested objects from .-separated strings",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {},
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-export default function depthify(obj) {
+module.exports = function depthify(obj) {
 	if (typeof obj !== "object") return obj;
 	if (obj instanceof Array) return obj.map(depthify);
 	if (obj === null) return obj;
