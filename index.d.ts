@@ -1,1 +1,1 @@
-function depthify(obj: Object | Array, delim: string?): Object;
+function depthify(obj: Object | Array, delim: string = "."): Object;

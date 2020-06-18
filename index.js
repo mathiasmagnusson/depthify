@@ -1,11 +1,11 @@
-module.exports = function depthify(obj, delim) {
+module.exports = function depthify(obj, delim = ".") {
 	if (typeof obj !== "object") return obj;
 	if (obj instanceof Array) return obj.map(o => depthify(o, delim));
 	if (obj === null) return obj;
 
 	let ret = {};
 	for (const [key, val] of Object.entries(obj)) {
-		if (!key.includes("."))
+		if (!key.includes(delim || "."))
 			ret[key] = depthify(val, delim);
 		else {
 			let split = key.split(delim || ".");
