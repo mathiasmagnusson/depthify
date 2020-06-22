@@ -1,6 +1,6 @@
 module.exports = function depthify(obj, delim = ".") {
 	if (typeof obj !== "object") return obj;
-	if (obj instanceof Array) return obj.map(o => depthify(o, delim));
+	if (obj instanceof Array) return obj.map(elem => depthify(elem, delim));
 	if (obj === null) return obj;
 
 	let ret = {};
